@@ -1,0 +1,24 @@
+<mjml>
+  <mj-head>
+    <mj-title>Beretun</mj-title>
+    <mj-font name="open-sans" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" />
+    <mj-attributes>
+
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#fff">
+    <mj-section>
+      <mj-column>
+        <mj-text
+          font-family="open-sans"
+          font-size="25px"
+          color="red"
+          font-weight="bold"
+          > LOGO
+        </mj-text>
+
+
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
