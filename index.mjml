@@ -1,31 +1,66 @@
-<mjml version="3.3.3">
-  <mj-body background-color="#F4F4F4" color="#55575d" font-family="Arial, sans-serif">
-    <mj-section background-color="#C1272D" background-repeat="repeat" padding="20px 0" text-align="center" vertical-align="top">
+<mjml>
+  <mj-head>
+    <mj-title>Test</mj-title>
+      <mj-font name="open sans" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" />
+    <mj-attributes>
+
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#fff" width="800px">
+    <mj-section background-color="#354A5D">
       <mj-column>
-        <mj-image align="center" padding="10px 25px" src="http://gkq4.mjt.lu/img/gkq4/b/18rxz/1h3k4.png" width="128px"></mj-image>
+        <mj-image src="http://localhost/mjml-project/assets/images/logo.jpg" align="center" width="150px" />
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" background-repeat="repeat" padding="20px 0" text-align="center" vertical-align="top">
-      <mj-column>
-        <mj-image align="center" padding="10px 25px" src="http://gkq4.mjt.lu/img/gkq4/b/18rxz/1h3s5.gif" width="600px"></mj-image>
-        <mj-image align="center" alt="Happy New Year!" container-background-color="#ffffff" padding="10px 25px" src="http://gkq4.mjt.lu/img/gkq4/b/18rxz/1hlvp.png" width="399px"></mj-image>
+
+    <mj-section background-color="#657A8D" border-bottom="10px solid #333" >
+      <mj-column width="100%">
+        <mj-image src="http://localhost/mjml-project/assets/images/center-main-img.png" width="150px" align="center" />
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" background-repeat="repeat" background-size="auto" padding="20px 0px 20px 0px" text-align="center" vertical-align="top">
+
+    <mj-section background-color="#dddddd">
       <mj-column>
-        <mj-text align="center" color="#55575d" font-family="Arial, sans-serif" font-size="14px" line-height="28px" padding="0px 25px 0px 25px">New dreams, new hopes, new experiences and new joys, we wish you all the best for this New Year to come in 2018!</mj-text>
-        <mj-image align="center" alt="Best wishes from all the Clothes Team!" padding="10px 25px" src="http://gkq4.mjt.lu/img/gkq4/b/18rxz/1hlv8.png" width="142px"></mj-image>
+        <mj-text
+          align="center" color="#000"
+          font-family="open sans" font-size="25px"
+          text-transform="uppercase" font-weight="700">
+          A special offer just for you!
+        </mj-text>
+        <mj-text
+          align="center" color="#000"
+          font-family="open sans" font-size="15px"
+          text-transform="uppercase" font-weight="700">
+          get 30% off on you next order
+        </mj-text>
+        <mj-button
+          background-color="#354A5D" align="center"
+          width="100%" font-family="open sans"
+          font-size="15px" text-transform="uppercase">
+          <a href="" style="color: #fff;text-decoration: none;">Click here</a>
+        </mj-button>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#C1272D" background-repeat="repeat" padding="20px 0" text-align="center" vertical-align="top">
+
+    <mj-section background-color="#1B9BA3" border-bottom="10px solid #4BCBD3;">
       <mj-column>
-        <mj-text align="center" color="#ffffff" font-family="Arial, sans-serif" font-size="13px" line-height="22px" padding="10px 25px">Simply created&nbsp;on&nbsp;<a style="color:#ffffff" href="http://www.mailjet.com"><b>Mailjet Passport</b></a></mj-text>
+        <mj-social>
+          <mj-social-element name="facebook" src="http://localhost/mjml-project/assets/images/fb-icon.png" />
+          <mj-social-element name="twitter" src="http://localhost/mjml-project/assets/images/twitter-icon.png" />
+          <mj-social-element name="instagram" src="http://localhost/mjml-project/assets/images/instagram-icon.png" />
+        </mj-social>
       </mj-column>
     </mj-section>
-    <mj-section background-repeat="repeat" background-size="auto" padding="20px 0px 20px 0px" text-align="center" vertical-align="top">
-      <mj-column>
-        <mj-text align="center" color="#55575d" font-family="Arial, sans-serif" font-size="11px" line-height="22px" padding="0px 20px">[[DELIVERY_INFO]]</mj-text>
+
+    <mj-section>
+      <mj-column background-color="#354A5D">
+        <mj-text
+          font-family="open sans" font-size="15px"
+          color="#fff" font-weight="100">
+          &copy; copyright reserved.
+        </mj-text>
       </mj-column>
     </mj-section>
+
   </mj-body>
 </mjml>
